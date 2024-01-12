@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jethro Mabeza Portfolio</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://kit.fontawesome.com/effd3867de.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <style>
+            #scrollToTopBtn {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                display: flex;
+                z-index: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <nav
+            style="background-color: #030712; border-bottom: 1px solid #212529"
+            class="navbar navbar-expand-lg p-3 sticky-top z-3"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #e2e8f0" href="#"
+                    >Jethro</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="ml-auto">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    style="color: #e2e8f0"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    style="color: #e2e8f0"
+                                    href="#projects"
+                                    >Projects</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    style="color: #e2e8f0"
+                                    href="#contact"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div
+            style="background-color: #030712; color: #f9fafb"
+            class="container-fluid p-3 p-lg-5 d-flex flex-column flex-lg-row gap-2 gap-lg-5 mb-6 lg-mb-0"
+        >
+            <!-- Sidebar -->
+            <div
+                style="top: 100px"
+                class="sticky-lg-top z-1 h-50 flex-column align-items-center mx-lg-auto"
+            >
+                <img
+                    src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/397471645_684247243770349_3246045477631123260_n.jpg?_nc_cat=110&cb=99be929b-b574a898&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEg4PtuO0LUP6teMaCSa4OWUiwS5ym-vLRSLBLnKb68tD6ANIKtuxrSVdW0OTXSkKDSz3_3DTTYnBrleg9Y-9FN&_nc_ohc=eQeMpWLNx4QAX-VlXtB&_nc_ht=scontent.fmnl4-3.fna&oh=00_AfC9MBzWvNsT5vuv3Qt3IzboDaLA7piD1WkBghg37sdjSg&oe=65A681A1"
+                    alt="pic"
+                    height="270"
+                    class="rounded-circle border-2 border-dark object-fit-cover"
+                />
+                <div class="w-100 flex flex-column gap-2 mt-4 p-4 p-lg-0">
+                    <div class="w-100">
+                        <p class="mb-0 fs-4 font-weight-bold">
+                            Jethro T. Mabeza
+                        </p>
+                        <p class="text-lg">Web developer | PYT | NextJS</p>
+                    </div>
+
+                    <div class="w-100 d-flex my-1 gap-2">
+                        <button class="w-100 btn btn-dark btn-sm">
+                            Resume
+                        </button>
+
+                        <button class="w-100 btn btn-dark btn-sm">
+                            LinkedIn
+                        </button>
+                    </div>
+
+                    <div class="mt-4 flex flex-column gap-1">
+                        <div class="d-flex align-items-center gap-1">
+                            <i class="fs-6 fa-solid fa-location-dot"></i>
+                            <p class="mb-0">Nueva Ecija, Philippines</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-1">
+                            <i class="fs-6 fa-brands fa-github"></i>
+                            <a
+                                href="https://github.com/J3thzki"
+                                target="_blank"
+                                class="text-decoration-none"
+                            >
+                            https://github.com/J3thzki
+                            </a>
+                        </div>
+                    </div>
+
+                    <hr class="w-100 border-dark my-4" />
+
+                    <p>Socials</p>
+                    <div class="d-flex">
+                        <a
+                            href="https://www.instagram.com/aw_jeth/"
+                            target="_blank"
+                            class="me-1"
+                        >
+                            <img
+                                src="https://gemmuel.vercel.app/socials/instagram.png"
+                                width="47"
+                                height="47"
+                            />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/JMABEZA0821/"
+                            target="_blank"
+                            class="me-1"
+                        >
+                            <img
+                                src="https://gemmuel.vercel.app/socials/facebook.png"
+                                width="43"
+                                height="43"
+                            />
+                        </a>
+                        <a
+                            href="https://www.tiktok.com/@j3th3"
+                            target="_blank"
+                            class="me-1"
+                        >
+                            <img
+                                src="https://gemmuel.vercel.app/socials/tiktok.png"
+                                width="47"
+                                height="47"
+                            />
+                        </a>
+                        <a
+                            href="www.youtube.com/@jethromabeza3247"
+                            target="_blank"
+                        >
+                            <img
+                                src="https://gemmuel.vercel.app/socials/youtube.png"
+                                width="45"
+                                height="45"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sections -->
+            <div
+                class="position-relative container-fluid flex-column align-items-center"
+            >
+                <section id="#" class="mb-lg-5 min-vh-100">
+                    <div
+                        class="position-relative w-100 h-9rem p-3 p-lg-5 my-4 mb-lg-5 d-flex justify-content-center align-items-center border border-dark rounded-4"
+                    >
+                        <div
+                            class="position-absolute top-0 w-100 p-3 lg-p-5 d-flex justify-content-between align-items-center"
+                        >
+                            <p class="fs-6">
+                                Jethro
+                                <span class="mx-1">/</span>
+                                Know me
+                                <span>.JPEG</span>
+                            </p>
+                        </div>
+                        <p class="tracking-wider fs-2 fw-bolder">
+                            where creativity meets logic in the language of machine.
+                        </p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="w-100 d-flex flex-column gap-4 mt-10">
+                        <p class="fs-4 fw-medium tracking">Languages & Tools</p>
+                        <div
+                            class="d-flex flex-wrap justify-content-center gap-2 gap-lg-5"
+                        >
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/html.png"
+                                />
+                                <p class="mb-0">HTML</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img src="https://gemmuel.vercel.app/css.png" />
+                                <p class="mb-0">CSS</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/sass.png"
+                                />
+                                <p class="mb-0">SASS</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/javascript.png"
+                                />
+                                <p class="mb-0">Javascript</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/typescript.png"
+                                />
+                                <p class="mb-0">Typescript</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/react.png"
+                                />
+                                <p class="mb-0">React</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/next.png"
+                                    width="60"
+                                />
+                                <p class="mb-0">Next</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/node.svg"
+                                    width="60"
+                                />
+                                <p class="mb-0">Node</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/express.png"
+                                    width="60"
+                                />
+                                <p class="mb-0">Express</p>
+                            </div>
+                            <div
+                                class="px-5 py-3 d-flex gap-2 flex-column align-items-center justify-content-center border border-dark rounded-3"
+                            >
+                                <img
+                                    src="https://gemmuel.vercel.app/mongo.png"
+                                    width="60"
+                                />
+                                <p class="mb-0">Mongo</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects -->
+                <section id="projects" class="my-lg-5 min-vh-100">
+                    <div class="w-100 flex-column align-items-center">
+                        <h1 className="mb-6">My Works</h1>
+                        <div class="row gap-4 mt-5">
+                            <div class="col">
+                                <a
+                                    href="https://bill-system.netlify.app/"
+                                    target="_blank"
+                                    style="text-decoration: none"
+                                    class="text-white w-100 p-4 border d-flex rounded-4 flex-column items-center gap-2 border border-dark rounded-xl"
+                                >
+                                    <img
+                                        src="https://th.bing.com/th/id/OIP.nYfTkoggsuBeHHK7biQCHAHaDt?rs=1&pid=ImgDetMain"
+                                        class="img-fluid object-fit-cover ratio-16x9 rounded-4"
+                                    />
+                                    <div class="w-100">
+                                        <p class="fw-bold fs-5 mb-1">
+                                            Billing System
+                                        </p>
+                                        <p class="text-xs lg-text-sm">
+                                            Discover and share all your
+                                            important links in one place.
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex justify-content-end flex-wrap gap-1 mt-1"
+                                    >
+                                        <button class="btn btn-dark">
+                                            View
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://thesistitle-generator.netlify.app/"
+                                    target="_blank"
+                                    style="text-decoration: none"
+                                    class="text-white w-100 p-4 border d-flex rounded-4 flex-column items-center gap-2 border border-dark rounded-xl"
+                                >
+                                    <img
+                                        src="https://th.bing.com/th/id/OIP.sibwQc6cmv0tzjU3jDsKOgHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain"
+                                        class="img-fluid object-fit-cover ratio-16x9 rounded-4"
+                                    />
+                                    <div class="w-100">
+                                        <p class="fw-bold fs-5 mb-1">Ookra</p>
+                                        <p class="text-xs lg-text-sm">
+                                            E-Commece website with User and
+                                            Seller Account
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex justify-content-end flex-wrap gap-1 mt-1"
+                                    >
+                                        <button class="btn btn-dark">
+                                            View
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a
+                                    href="https://lichess.org/"
+                                    target="_blank"
+                                    style="text-decoration: none"
+                                    class="text-white w-100 p-4 border d-flex rounded-4 flex-column items-center gap-2 border border-dark rounded-xl"
+                                >
+                                    <img
+                                        src="https://images.prismic.io/lichess/5cfd2630-2a8f-4fa9-8f78-04c2d9f0e5fe_lichess-box-1024.png?auto=compress,format"
+                                        class="img-fluid object-fit-cover ratio-16x9 rounded-4"
+                                    />
+                                    <div class="w-100">
+                                        <p class="fw-bold fs-5 mb-1">
+                                            Lichess
+                                        </p>
+                                        <p class="text-xs lg-text-sm">
+                                            A multiplayer website that can 
+                                            be battle on 1 on 1 chess
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex justify-content-end flex-wrap gap-1 mt-1"
+                                    >
+                                        <button class="btn btn-dark">
+                                            View
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row gap-4 mt-4">
+                            <div class="col">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    style="text-decoration: none"
+                                    class="text-white w-100 p-4 border d-flex rounded-4 flex-column items-center gap-2 border border-dark rounded-xl"
+                                >
+                                    <img
+                                        src="https://cakengames.files.wordpress.com/2016/06/ghostrecon1.jpg"
+                                        class="img-fluid object-fit-cover ratio-16x9 rounded-4"
+                                    />
+                                    <div class="w-100">
+                                        <p class="fw-bold fs-5 mb-1">
+                                            Ghost Recon
+                                        </p>
+                                        <p class="text-xs lg-text-sm">
+                                            Digital Game like Apocalypse
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex justify-content-end flex-wrap gap-1 mt-1"
+                                    >
+                                        <button class="btn btn-dark">
+                                            View
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://playtictactoe.org/"
+                                    target="_blank"
+                                    style="text-decoration: none"
+                                    class="text-white w-100 p-4 border d-flex rounded-4 flex-column items-center gap-2 border border-dark rounded-xl"
+                                >
+                                    <img
+                                        src="https://miro.medium.com/v2/resize:fit:1200/1*auKB-uJwGajD8sP31NfF4Q.jpeg"
+                                        class="img-fluid object-fit-cover ratio-16x9 rounded-4"
+                                    />
+                                    <div class="w-100">
+                                        <p class="fw-bold fs-5 mb-1">
+                                            Tic-tac-toe
+                                        </p>
+                                        <p class="text-xs lg-text-sm">
+                                            human vs computer
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex justify-content-end flex-wrap gap-1 mt-1"
+                                    >
+                                        <button class="btn btn-dark">
+                                            View
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    style="text-decoration: none"
+                                    class="text-white w-100 p-4 border d-flex rounded-4 flex-column items-center gap-2 border border-dark rounded-xl"
+                                >
+                                    <img
+                                        src="https://cakengames.files.wordpress.com/2016/06/dishonored-2.jpg"
+                                        class="img-fluid object-fit-cover ratio-16x9 rounded-4"
+                                    />
+                                    <div class="w-100">
+                                        <p class="fw-bold fs-5 mb-1">
+                                            Grand Imortal 2
+                                        </p>
+                                        <p class="text-xs lg-text-sm">
+                                            assasin vs war
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex justify-content-end flex-wrap gap-1 mt-1"
+                                    >
+                                        <button class="btn btn-dark">
+                                            View
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    id="contact"
+                    class="min-vh-100 container py-4 rounded-4 d-flex justify-content-center align-items-center"
+                >
+                    <div class="mx-auto w-100">
+                        <h2 class="text-center fs-1">Contact me</h2>
+                        <p class="text-center mb-4">
+                            Want to order a project?<br />
+                            Or do you just want to stay in touch?
+                        </p>
+                        <form action="/contact" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label"
+                                    >Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label"
+                                    >Message</label
+                                >
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    name="message"
+                                    rows="3"
+                                    required
+                                ></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-dark">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <a id="scrollToTopBtn" href="#" class="btn btn-dark">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+        <footer style="background-color: #030712" class="text-white py-4">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="d-flex align-items-center gap-2 mt-3">
+                    <a
+                        href="https://www.facebook.com/JMABEZA0821/"
+                        target="_blank"
+                        class="fa fa-facebook text-white fs-5 px-2 text-decoration-none"
+                    ></a>
+                    <a
+                        href="https://www.instagram.com/aw_jeth/"
+                        target="_blank"
+                        class="fa fa-instagram text-white fs-5 px-2 text-decoration-none"
+                    ></a>
+                    <a
+                        href="www.youtube.com/@jethromabeza3247"
+                        target="_blank"
+                        class="fa fa-youtube text-white fs-5 px-2 text-decoration-none"
+                    ></a>
+                </div>
+                <div class="mt-3">
+                    <p>&copy; 2023  Jethro T. Mabeza. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
